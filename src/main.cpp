@@ -2578,9 +2578,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nBits = %u \n", block.nBits);
 
         assert(block.hashMerkleRoot == uint256("0x5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc"));
-        block.print();
-        assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
-        assert(block.CheckBlock());
+        //block.print();
 
         // Start new block file
         unsigned int nFile;
