@@ -19,7 +19,7 @@
 using namespace std;
 using namespace boost;
 
-const bool IsCalculatingGenesisBlockHash = true;
+const bool IsCalculatingGenesisBlockHash = false;
 
 //
 // Global state
@@ -2519,15 +2519,16 @@ bool LoadBlockIndex(bool fAllowNew)
         // Genesis block
 
         //TestNet
-        //CBlock(hash=d431cc641db6a6bc33de809e3cea88d972e8c8ac9de3961446f09f669948d851, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc, nTime=1398442254, nBits=1f00ffff, nNonce=0, vtx=1, vchBlockSig=)
+        //nonce 00010000: hash = 5dd6b250b6d8c2b73a45cadbb35cb8f02da873dd0433ab1e7e57e71fb88dddc0
+        //CBlock(hash=0000ab491c18915551ff490e76c3751718c28c66d85aa3146d4fab293bc99921, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc, nTime=1398442254, nBits=1f00ffff, nNonce=18210, vtx=1, vchBlockSig=)
         //Coinbase(hash=5443b9d4e8, nTime=1398442254, ver=1, vin.size=1, vout.size=1, nLockTime=0)
         //CTxIn(COutPoint(0000000000, 4294967295), coinbase 0488437507012a4c5f496620596f7527726520576f7272696564204d696368656c6c65204f62616d612057696c6c204f75747368696e6520596f7572204b6964206174204869732048696768205363686f6f6c2047726164756174696f6e2c205368652057696c6c)
         //CTxOut(empty)
         //vMerkleTree: 5443b9d4e8
-        //block.GetHash() == d431cc641db6a6bc33de809e3cea88d972e8c8ac9de3961446f09f669948d851
+        //block.GetHash() == 0000ab491c18915551ff490e76c3751718c28c66d85aa3146d4fab293bc99921
         //block.hashMerkleRoot == 5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc
         //block.nTime = 1398442254
-        //block.nNonce = 0
+        //block.nNonce = 18210
         //block.nBits = 520159231
 
         const char* pszTimestamp = "If You're Worried Michelle Obama Will Outshine Your Kid at His High School Graduation, She Will";
@@ -2544,7 +2545,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1398442254;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 0 : 0;
+        block.nNonce   = !fTestNet ? 18210 : 0;
 
         if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock)) {
 			block.nNonce = 0;
