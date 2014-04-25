@@ -19,7 +19,7 @@
 using namespace std;
 using namespace boost;
 
-const bool IsCalculatingGenesisBlockHash = false;
+const bool IsCalculatingGenesisBlockHash = true;
 
 //
 // Global state
@@ -2518,6 +2518,18 @@ bool LoadBlockIndex(bool fAllowNew)
 
         // Genesis block
 
+        //TestNet
+        //CBlock(hash=d431cc641db6a6bc33de809e3cea88d972e8c8ac9de3961446f09f669948d851, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc, nTime=1398442254, nBits=1f00ffff, nNonce=0, vtx=1, vchBlockSig=)
+        //Coinbase(hash=5443b9d4e8, nTime=1398442254, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+        //CTxIn(COutPoint(0000000000, 4294967295), coinbase 0488437507012a4c5f496620596f7527726520576f7272696564204d696368656c6c65204f62616d612057696c6c204f75747368696e6520596f7572204b6964206174204869732048696768205363686f6f6c2047726164756174696f6e2c205368652057696c6c)
+        //CTxOut(empty)
+        //vMerkleTree: 5443b9d4e8
+        //block.GetHash() == d431cc641db6a6bc33de809e3cea88d972e8c8ac9de3961446f09f669948d851
+        //block.hashMerkleRoot == 5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc
+        //block.nTime = 1398442254
+        //block.nNonce = 0
+        //block.nBits = 520159231
+
         const char* pszTimestamp = "If You're Worried Michelle Obama Will Outshine Your Kid at His High School Graduation, She Will";
         CTransaction txNew;
         txNew.nTime = 1398442254;
@@ -2564,7 +2576,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nNonce = %u \n", block.nNonce);
         printf("block.nBits = %u \n", block.nBits);
 
-        assert(block.hashMerkleRoot == uint256("0xd9fb683f6abe37e1d12a8e29967f5a461b4ac9941061950521b6b5d50659fd7c"));
+        assert(block.hashMerkleRoot == uint256("0x5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
