@@ -19,7 +19,7 @@
 using namespace std;
 using namespace boost;
 
-const bool IsCalculatingGenesisBlockHash = true;
+const bool IsCalculatingGenesisBlockHash = false;
 
 //
 // Global state
@@ -2510,6 +2510,16 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 
         // Genesis block
+        //CBlock(hash=000000026ef6f9e80b63e414b8f487d942265f399393da8dfe5d8aa9ea862ff9, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=e6c7701ab35b5e2df5b0452eb1e2c7e9d9658e1248b15ad9f85f47d44ad62303, nTime=1398539986, nBits=1d03ffff, nNonce=205521912, vtx=1, vchBlockSig=)
+        //Coinbase(hash=e6c7701ab3, nTime=1398539986, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+        //CTxIn(COutPoint(0000000000, 4294967295), coinbase 0488437507012a4c60576f726c642773206661747465737420776f6d616e206e6565647320746f206c6f73652032302053544f4e4520696e206f7264657220746f2068617665206c6966652d736176696e6720676173747269632062616e64206f7065726174696f6e)
+        //CTxOut(empty)
+        //vMerkleTree: e6c7701ab3
+        //block.GetHash() == 000000026ef6f9e80b63e414b8f487d942265f399393da8dfe5d8aa9ea862ff9
+        //block.hashMerkleRoot == e6c7701ab35b5e2df5b0452eb1e2c7e9d9658e1248b15ad9f85f47d44ad62303
+        //block.nTime = 1398539986
+        //block.nNonce = 205521912
+        //block.nBits = 486801407
 
         const char* pszTimestamp = "World's fattest woman needs to lose 20 STONE in order to have life-saving gastric band operation";
         CTransaction txNew;
@@ -2525,7 +2535,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1398539986;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 0 : 0;
+        block.nNonce   = !fTestNet ? 205521912 : 205521912;
 
         if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock)) {
 			block.nNonce = 0;
@@ -2556,8 +2566,10 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nTime = %u \n", block.nTime);
         printf("block.nNonce = %u \n", block.nNonce);
         printf("block.nBits = %u \n", block.nBits);
+        // Print Stake Modifier Checkpoint
+        printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
 
-        assert(block.hashMerkleRoot == uint256("0x"));
+        assert(block.hashMerkleRoot == uint256("0xe6c7701ab35b5e2df5b0452eb1e2c7e9d9658e1248b15ad9f85f47d44ad62303"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
