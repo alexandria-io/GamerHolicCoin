@@ -497,7 +497,7 @@ bool CTransaction::CheckTransaction() const
 
     if (IsCoinBase())
     {
-        if (vin[0].scriptSig.size() < 2 || vin[0].scriptSig.size() > 100)
+        if (vin[0].scriptSig.size() < 2 || vin[0].scriptSig.size() > 212)
             return DoS(100, error("CTransaction::CheckTransaction() : coinbase script size is invalid"));
     }
     else
@@ -2521,7 +2521,7 @@ bool LoadBlockIndex(bool fAllowNew)
         //block.nNonce = 205521912
         //block.nBits = 486801407
 
-        const char* pszTimestamp = "If You're Worried Michelle Obama Will Outshine Your Kid at His High School Graduation, She Will";
+        const char* pszTimestamp = "World's fattest woman needs to lose 20 STONE in order to have life-saving gastric band operation";
         CTransaction txNew;
         txNew.nTime = 1398539986;
         txNew.vin.resize(1);
