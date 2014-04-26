@@ -2546,13 +2546,14 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1398442254;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 18210 : 0;
+        block.nNonce   = !fTestNet ? 18210 : 18210;
 
         // Print Stake Modifier Checkpoint
                 printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
 
-        if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock)) {
-			block.nNonce = 0;
+        if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock))
+        {
+            block.nNonce = 0;
 
             // This will figure out a valid hash and Nonce if you're
             // creating a different genesis block:
@@ -2572,17 +2573,10 @@ bool LoadBlockIndex(bool fAllowNew)
             }
         }
 
-
-        //// debug print
-        block.print();
-        printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
-        printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
-        printf("block.nTime = %u \n", block.nTime);
-        printf("block.nNonce = %u \n", block.nNonce);
-        printf("block.nBits = %u \n", block.nBits);
-
         assert(block.hashMerkleRoot == uint256("0x5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc"));
-        //block.print();
+        block.print();
+        assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
+        assert(block.CheckBlock());
 
         // Start new block file
         unsigned int nFile;
