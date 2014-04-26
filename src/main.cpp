@@ -19,6 +19,8 @@
 using namespace std;
 using namespace boost;
 
+const bool IsCalculatingGenesisBlockHash = false;
+
 //
 // Global state
 //
@@ -2540,6 +2542,28 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nTime    = 1398475915;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = !fTestNet ? 311363257 : 311363257;
+
+        if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock))
+        {
+            block.nNonce = 0;
+
+            // This will figure out a valid hash and Nonce if you're
+            // creating a different genesis block:
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+            while (block.GetHash() > hashTarget)
+            {
+                ++block.nNonce;
+                if (block.nNonce == 0)
+                {
+                    printf("NONCE WRAPPED, incrementing time");
+                    ++block.nTime;
+                }
+				if (block.nNonce % 10000 == 0)
+				{
+					printf("nonce %08u: hash = %s \n", block.nNonce, block.GetHash().ToString().c_str());
+				}
+            }
+        }
 
         // debug print
         block.print();
