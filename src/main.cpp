@@ -2549,7 +2549,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nNonce   = !fTestNet ? 0 : 0;
 
         // Print Stake Modifier Checkpoint
-                printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
+                //printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
 
         if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock))
         {
@@ -2573,7 +2573,7 @@ bool LoadBlockIndex(bool fAllowNew)
             }
         }
 
-        assert(block.hashMerkleRoot == uint256("0x5443b9d4e89206e20bd28bbfb4d7c069a1a8c3e46fc5b900ad7a4fc70225cfcc"));
+        assert(block.hashMerkleRoot == uint256("0x"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
