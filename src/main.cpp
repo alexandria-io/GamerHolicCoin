@@ -985,7 +985,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     return nSubsidy + nFees;
 }
 
-static const int64_t nTargetTimespan = 1 * 60;  // 1 min
+static const int64_t nTargetTimespan = 15 * 60;  // 15 min
 
 //
 // maximum nBits value could possible be required nTime after
@@ -2537,14 +2537,6 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nTime    = 1398475915;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = !fTestNet ? 0 : 0;
-		// debug print
-        block.print();
-        printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
-       	printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
-        printf("block.nTime = %u \n", block.nTime);
-        printf("block.nNonce = %u \n", block.nNonce);
-        printf("block.nBits = %u \n", block.nBits);
-		printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
 
         if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock))
         {
@@ -2567,6 +2559,14 @@ bool LoadBlockIndex(bool fAllowNew)
 				}
             }
         }
+
+        // debug print
+        block.print();
+        printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
+        printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
+        printf("block.nTime = %u \n", block.nTime);
+        printf("block.nNonce = %u \n", block.nNonce);
+        printf("block.nBits = %u \n", block.nBits);
 
         assert(block.hashMerkleRoot == uint256("0x8d0567c5f839e0241c4f2dd75193a90a1c02b707e2c515f3417079c293c68ff1"));
         block.print();
