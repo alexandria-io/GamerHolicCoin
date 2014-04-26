@@ -2559,15 +2559,15 @@ bool LoadBlockIndex(bool fAllowNew)
         }
 
 
-        //// debug print
+        // Print Stake Modifier Checkpoint
+        printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
+        // debug print
         block.print();
         printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
         printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
         printf("block.nTime = %u \n", block.nTime);
         printf("block.nNonce = %u \n", block.nNonce);
         printf("block.nBits = %u \n", block.nBits);
-        // Print Stake Modifier Checkpoint
-        printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
 
         assert(block.hashMerkleRoot == uint256("0xe6c7701ab35b5e2df5b0452eb1e2c7e9d9658e1248b15ad9f85f47d44ad62303"));
         block.print();
