@@ -966,7 +966,16 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
+    CBlockIndex* pindex;
+    int64_t nHeight = pindex->nHeight;
+
     int64_t nSubsidy = 512 * COIN;
+
+    if(nHeight <= 55)
+    {
+        nSubsidy = 55 * COIN;
+        return nSubsidy + nFees;
+    }
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
@@ -1857,6 +1866,9 @@ bool CBlock::SetBestChain(CTxDB& txdb, CBlockIndex* pindexNew)
       nBestBlockTrust.Get64(),
       DateTimeStrFormat("%x %H:%M:%S", pindexBest->GetBlockTime()).c_str());
 
+    // Print Stake Modifier Checkpoint
+            printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
+
     // Check the version of the last 100 blocks to see if we need to upgrade:
     if (!fIsInitialDownload)
     {
@@ -2556,7 +2568,6 @@ bool LoadBlockIndex(bool fAllowNew)
             }
         }
 
-        //// debug print
         assert(block.hashMerkleRoot == uint256("0x"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
