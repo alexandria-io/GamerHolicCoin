@@ -2560,7 +2560,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
 
         // Print Stake Modifier Checkpoint
-        printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
+        //printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
         // debug print
         block.print();
         printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
