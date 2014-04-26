@@ -19,7 +19,7 @@
 using namespace std;
 using namespace boost;
 
-const bool IsCalculatingGenesisBlockHash = true;
+const bool IsCalculatingGenesisBlockHash = false;
 
 //
 // Global state
@@ -968,6 +968,11 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 {
     int64_t nSubsidy = 512 * COIN;
 
+    //if (pblockindex->nHeight < 55)
+    //{
+      //  nSubsidy = 55 * COIN;
+    //}
+
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
 
@@ -1857,6 +1862,9 @@ bool CBlock::SetBestChain(CTxDB& txdb, CBlockIndex* pindexNew)
       nBestBlockTrust.Get64(),
       DateTimeStrFormat("%x %H:%M:%S", pindexBest->GetBlockTime()).c_str());
 
+    // Print Stake Modifier Checkpoint
+            printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
+
     // Check the version of the last 100 blocks to see if we need to upgrade:
     if (!fIsInitialDownload)
     {
@@ -2516,7 +2524,7 @@ bool LoadBlockIndex(bool fAllowNew)
         txNew.nTime = 1398475915;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
-        txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(125) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
+        txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(125) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].SetEmpty();
         CBlock block;
         block.vtx.push_back(txNew);
@@ -2526,14 +2534,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nTime    = 1398475915;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = !fTestNet ? 0 : 0;
-		// debug print
-        block.print();
-        printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
-       	printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
-        printf("block.nTime = %u \n", block.nTime);
-        printf("block.nNonce = %u \n", block.nNonce);
-        printf("block.nBits = %u \n", block.nBits);
-		printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
+
+        // Print Stake Modifier Checkpoint
+                //printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
 
         if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock))
         {
@@ -3331,7 +3334,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         uint256 hashBlock = block.GetHash();
 
         printf("received block %s\n", hashBlock.ToString().substr(0,20).c_str());
-        //block.print();
+        block.print();
 
         CInv inv(MSG_BLOCK, hashBlock);
         pfrom->AddInventoryKnown(inv);
