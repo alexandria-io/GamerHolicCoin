@@ -19,7 +19,7 @@
 using namespace std;
 using namespace boost;
 
-const bool IsCalculatingGenesisBlockHash = true;
+const bool IsCalculatingGenesisBlockHash = false;
 
 //
 // Global state
@@ -2511,16 +2511,21 @@ bool LoadBlockIndex(bool fAllowNew)
 
         // Genesis block
 
-        //CBlock(hash=69f931fad0988cca384832ee41fa8371fb73f165519d28a113dd31feacc699d8, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=8d0567c5f839e0241c4f2dd75193a90a1c02b707e2c515f3417079c293c68ff1, nTime=1398475915, nBits=1d03ffff, nNonce=0, vtx=1, vchBlockSig=)
+        //CBlock(hash=000000015fa19ffbac055732da3f5f08d4de5fb4ee273588ca151cf22ef9a1c8, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=8d0567c5f839e0241c4f2dd75193a90a1c02b707e2c515f3417079c293c68ff1, nTime=1398475915, nBits=1d03ffff, nNonce=311363257, vtx=1, vchBlockSig=)
         //Coinbase(hash=8d0567c5f8, nTime=1398475915, ver=1, vin.size=1, vout.size=1, nLockTime=0)
         //CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d017d4c5f496620596f7527726520576f7272696564204d696368656c6c65204f62616d612057696c6c204f75747368696e6520596f7572204b6964206174204869732048696768205363686f6f6c2047726164756174696f6e2c205368652057696c6c)
         //CTxOut(empty)
         //vMerkleTree: 8d0567c5f8
-        //block.GetHash() == 69f931fad0988cca384832ee41fa8371fb73f165519d28a113dd31feacc699d8
+        //block.GetHash() == 000000015fa19ffbac055732da3f5f08d4de5fb4ee273588ca151cf22ef9a1c8
         //block.hashMerkleRoot == 8d0567c5f839e0241c4f2dd75193a90a1c02b707e2c515f3417079c293c68ff1
         //block.nTime = 1398475915
-        //block.nNonce = 0
+        //block.nNonce = 311363257
         //block.nBits = 486801407
+        //CBlock(hash=000000015fa19ffbac055732da3f5f08d4de5fb4ee273588ca151cf22ef9a1c8, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=8d0567c5f839e0241c4f2dd75193a90a1c02b707e2c515f3417079c293c68ff1, nTime=1398475915, nBits=1d03ffff, nNonce=311363257, vtx=1, vchBlockSig=)
+        //Coinbase(hash=8d0567c5f8, nTime=1398475915, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+        //CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d017d4c5f496620596f7527726520576f7272696564204d696368656c6c65204f62616d612057696c6c204f75747368696e6520596f7572204b6964206174204869732048696768205363686f6f6c2047726164756174696f6e2c205368652057696c6c)
+        //CTxOut(empty)
+        //vMerkleTree: 8d0567c5f8
 
         const char* pszTimestamp = "If You're Worried Michelle Obama Will Outshine Your Kid at His High School Graduation, She Will";
         CTransaction txNew;
@@ -2536,7 +2541,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1398475915;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 0 : 0;
+        block.nNonce   = !fTestNet ? 311363257 : 311363257;
 
         if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock))
         {
