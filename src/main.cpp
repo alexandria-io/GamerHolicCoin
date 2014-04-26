@@ -19,7 +19,7 @@
 using namespace std;
 using namespace boost;
 
-const bool IsCalculatingGenesisBlockHash = false;
+const bool IsCalculatingGenesisBlockHash = true;
 
 //
 // Global state
@@ -966,16 +966,7 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
-    CBlockIndex* pindex;
-    int64_t nHeight = pindex->nHeight;
-
     int64_t nSubsidy = 512 * COIN;
-
-    if(nHeight <= 55)
-    {
-        nSubsidy = 55 * COIN;
-        return nSubsidy + nFees;
-    }
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
@@ -1866,9 +1857,6 @@ bool CBlock::SetBestChain(CTxDB& txdb, CBlockIndex* pindexNew)
       nBestBlockTrust.Get64(),
       DateTimeStrFormat("%x %H:%M:%S", pindexBest->GetBlockTime()).c_str());
 
-    // Print Stake Modifier Checkpoint
-            printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
-
     // Check the version of the last 100 blocks to see if we need to upgrade:
     if (!fIsInitialDownload)
     {
@@ -2523,10 +2511,6 @@ bool LoadBlockIndex(bool fAllowNew)
 
         // Genesis block
 
-        //MainNet
-
-        //TestNet
-
         const char* pszTimestamp = "World's fattest woman needs to lose 20 STONE in order to have life-saving gastric band operation";
         CTransaction txNew;
         txNew.nTime = 1398539986;
@@ -2543,12 +2527,8 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = !fTestNet ? 0 : 0;
 
-        // Print Stake Modifier Checkpoint
-                printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
-
-        if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock))
-        {
-            block.nNonce = 0;
+        if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock)) {
+			block.nNonce = 0;
 
             // This will figure out a valid hash and Nonce if you're
             // creating a different genesis block:
@@ -2567,6 +2547,15 @@ bool LoadBlockIndex(bool fAllowNew)
 				}
             }
         }
+
+
+        //// debug print
+        block.print();
+        printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
+        printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
+        printf("block.nTime = %u \n", block.nTime);
+        printf("block.nNonce = %u \n", block.nNonce);
+        printf("block.nBits = %u \n", block.nBits);
 
         assert(block.hashMerkleRoot == uint256("0x"));
         block.print();
