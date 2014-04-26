@@ -1864,6 +1864,9 @@ bool CBlock::SetBestChain(CTxDB& txdb, CBlockIndex* pindexNew)
       nBestBlockTrust.Get64(),
       DateTimeStrFormat("%x %H:%M:%S", pindexBest->GetBlockTime()).c_str());
 
+    // Print Stake Modifier Checkpoint
+            printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
+
     // Check the version of the last 100 blocks to see if we need to upgrade:
     if (!fIsInitialDownload)
     {
@@ -2546,6 +2549,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nTime    = 1398442254;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = !fTestNet ? 18210 : 0;
+
+        // Print Stake Modifier Checkpoint
+                printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
 
         if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock)) {
 			block.nNonce = 0;
