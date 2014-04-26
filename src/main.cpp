@@ -19,7 +19,7 @@
 using namespace std;
 using namespace boost;
 
-const bool IsCalculatingGenesisBlockHash = false;
+const bool IsCalculatingGenesisBlockHash = true;
 
 //
 // Global state
@@ -2534,7 +2534,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         const char* pszTimestamp = "If You're Worried Michelle Obama Will Outshine Your Kid at His High School Graduation, She Will";
         CTransaction txNew;
-        txNew.nTime = 1398442254;
+        txNew.nTime = 1398475915;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 125125512 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2544,9 +2544,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1398442254;
+        block.nTime    = 1398475915;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 18210 : 18210;
+        block.nNonce   = !fTestNet ? 0 : 0;
 
         // Print Stake Modifier Checkpoint
                 printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
