@@ -80,8 +80,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     resize(850, 550);
     setWindowTitle(tr("Zimstake") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
-    qApp->setWindowIcon(QIcon(":icons/bitcoin"));
-    setWindowIcon(QIcon(":icons/bitcoin"));
+    qApp->setWindowIcon(QIcon(":icons/zimstake"));
+    setWindowIcon(QIcon(":icons/zimstake"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -256,7 +256,7 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About Zimstake"), this);
+    aboutAction = new QAction(QIcon(":/icons/zimstake"), tr("&About Zimstake"), this);
     aboutAction->setToolTip(tr("Show information about Zimstake"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
@@ -265,7 +265,7 @@ void BitcoinGUI::createActions()
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
     optionsAction->setToolTip(tr("Modify configuration options for Zimstake"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
+    toggleHideAction = new QAction(QIcon(":/icons/zimstake"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
     encryptWalletAction->setToolTip(tr("Encrypt or decrypt wallet"));
     encryptWalletAction->setCheckable(true);
@@ -358,10 +358,10 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
         {
             setWindowTitle(windowTitle() + QString(" ") + tr("[testnet]"));
 #ifndef Q_OS_MAC
-            qApp->setWindowIcon(QIcon(":icons/bitcoin_testnet"));
-            setWindowIcon(QIcon(":icons/bitcoin_testnet"));
+            qApp->setWindowIcon(QIcon(":icons/zimstake_testnet"));
+            setWindowIcon(QIcon(":icons/zimstake_testnet"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/bitcoin_testnet"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/zimstake_testnet"));
 #endif
             if(trayIcon)
             {
