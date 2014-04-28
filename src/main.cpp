@@ -1856,6 +1856,8 @@ bool CBlock::SetBestChain(CTxDB& txdb, CBlockIndex* pindexNew)
       CBigNum(nBestChainTrust).ToString().c_str(),
       nBestBlockTrust.Get64(),
       DateTimeStrFormat("%x %H:%M:%S", pindexBest->GetBlockTime()).c_str());
+    // Print Stake Modifier Checkpoint
+            printf("Stake checkpoint: %x\n", pindexBest->nStakeModifierChecksum);
 
     // Check the version of the last 100 blocks to see if we need to upgrade:
     if (!fIsInitialDownload)
