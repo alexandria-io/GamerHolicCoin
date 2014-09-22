@@ -92,7 +92,7 @@ OBJS= \
     obj/kernel.o \
     obj/pbkdf2.o
 
-all: zimstaked.exe
+all: gamerholiccoind.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += -I"$(CURDIR)/leveldb/include"
@@ -110,13 +110,13 @@ DEFS += -DHAVE_BUILD_INFO
 obj/%.o: %.cpp $(HEADERS)
 	$(CXX) -c $(CFLAGS) -o $@ $<
 
-zimstaked.exe: $(OBJS:obj/%=obj/%)
+gamerholiccoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) -lshlwapi
-	$(STRIP) zimstaked.exe
+	$(STRIP) gamerholiccoind.exe
 
 clean:
 	-rm -f obj/*.o
-	-rm -f zimstaked.exe
+	-rm -f gamerholiccoind.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 

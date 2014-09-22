@@ -960,7 +960,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "zimstake";
+    const char* pszModule = "gamerholiccoin";
 #endif
     if (pex)
         return strprintf(
@@ -1009,13 +1009,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Zimstake
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Zimstake
-    // Mac: ~/Library/Application Support/Zimstake
-    // Unix: ~/.zimstake
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\GamerHolicCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\GamerHolicCoin
+    // Mac: ~/Library/Application Support/GamerHolicCoin
+    // Unix: ~/.gamerholiccoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Zimstake";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "GamerHolicCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1027,10 +1027,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Zimstake";
+    return pathRet / "GamerHolicCoin";
 #else
     // Unix
-    return pathRet / ".zimstake";
+    return pathRet / ".gamerholiccoin";
 #endif
 #endif
 }
@@ -1072,7 +1072,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "zimstake.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "gamerholiccoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1103,7 +1103,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "zimstaked.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "gamerholiccoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1233,10 +1233,10 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Zimstake will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong GamerHolicCoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("Zimstake"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("GamerHolicCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }

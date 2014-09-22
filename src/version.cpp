@@ -11,7 +11,7 @@
 const std::string CLIENT_NAME("CG");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "-ZS"
+#define CLIENT_VERSION_SUFFIX   "-GHC"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.

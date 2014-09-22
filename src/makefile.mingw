@@ -83,7 +83,7 @@ OBJS= \
     obj/kernel.o \
     obj/pbkdf2.o
 
-all: zimstaked.exe
+all: gamerholiccoind.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -96,12 +96,12 @@ obj/txdb-leveldb.o: leveldb/libleveldb.a
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
 
-zimstaked.exe: $(OBJS:obj/%=obj/%)
+gamerholiccoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 
 clean:
-	-del /Q zimstaked
+	-del /Q gamerholiccoind
 	-del /Q obj\*
 
 FORCE:

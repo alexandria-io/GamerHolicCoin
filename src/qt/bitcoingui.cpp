@@ -78,10 +78,10 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("Zimstake") + " - " + tr("Wallet"));
+    setWindowTitle(tr("GamerHolicCoin") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
-    qApp->setWindowIcon(QIcon(":icons/zimstake"));
-    setWindowIcon(QIcon(":icons/zimstake"));
+    qApp->setWindowIcon(QIcon(":icons/gamerholiccoin"));
+    setWindowIcon(QIcon(":icons/gamerholiccoin"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -218,7 +218,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Zimstake address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a GamerHolicCoin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -256,16 +256,16 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/zimstake"), tr("&About Zimstake"), this);
-    aboutAction->setToolTip(tr("Show information about Zimstake"));
+    aboutAction = new QAction(QIcon(":/icons/gamerholiccoin"), tr("&About GamerHolicCoin"), this);
+    aboutAction->setToolTip(tr("Show information about GamerHolicCoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Zimstake"));
+    optionsAction->setToolTip(tr("Modify configuration options for GamerHolicCoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/zimstake"), tr("&Show / Hide"), this);
+    toggleHideAction = new QAction(QIcon(":/icons/gamerholiccoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
     encryptWalletAction->setToolTip(tr("Encrypt or decrypt wallet"));
     encryptWalletAction->setCheckable(true);
@@ -358,14 +358,14 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
         {
             setWindowTitle(windowTitle() + QString(" ") + tr("[testnet]"));
 #ifndef Q_OS_MAC
-            qApp->setWindowIcon(QIcon(":icons/zimstake_testnet"));
-            setWindowIcon(QIcon(":icons/zimstake_testnet"));
+            qApp->setWindowIcon(QIcon(":icons/gamerholiccoin_testnet"));
+            setWindowIcon(QIcon(":icons/gamerholiccoin_testnet"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/zimstake_testnet"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/gamerholiccoin_testnet"));
 #endif
             if(trayIcon)
             {
-                trayIcon->setToolTip(tr("Zimstake client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("GamerHolicCoin client") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -425,7 +425,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Zimstake client"));
+    trayIcon->setToolTip(tr("GamerHolicCoin client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -495,7 +495,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Zimstake network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to GamerHolicCoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
@@ -785,7 +785,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Zimstake address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
@@ -800,7 +800,7 @@ void BitcoinGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Zimstake address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters."));
 }
 
 void BitcoinGUI::setEncryptionStatus(int status)

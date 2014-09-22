@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Zimstake</source>
-        <translation>Om Zimstake</translation>
+        <source>About GamerHolicCoin</source>
+        <translation>Om GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Zimstake&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Zimstake&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Zimstake developers</source>
+Copyright © 2014 The GamerHolicCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Zimstake developers</translation>
+Copyright © 2014 The GamerHolicCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Zimstake addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Zimstake adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
+        <source>These are your GamerHolicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine GamerHolicCoin adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Zimstake address</source>
-        <translation>Signerer en meddelelse for at bevise du ejer en Zimstake adresse</translation>
+        <source>Sign a message to prove you own a GamerHolicCoin address</source>
+        <translation>Signerer en meddelelse for at bevise du ejer en GamerHolicCoin adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Zimstake address</source>
-        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret Zimstake adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified GamerHolicCoin address</source>
+        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret GamerHolicCoin adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>Zimstake will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Zimstake lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
+        <source>GamerHolicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GamerHolicCoin lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Zimstake</source>
-        <translation>Vis oplysninger om Zimstake</translation>
+        <source>Show information about GamerHolicCoin</source>
+        <translation>Vis oplysninger om GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Zimstake address</source>
-        <translation>Send mønter til en Zimstake adresse</translation>
+        <source>Send coins to a GamerHolicCoin address</source>
+        <translation>Send mønter til en GamerHolicCoin adresse</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Zimstake</source>
-        <translation>Ændre indstillingsmuligheder for Zimstake</translation>
+        <source>Modify configuration options for GamerHolicCoin</source>
+        <translation>Ændre indstillingsmuligheder for GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-202"/>
-        <source>Zimstake</source>
-        <translation>Zimstake</translation>
+        <source>GamerHolicCoin</source>
+        <translation>GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Zimstake</source>
-        <translation>&amp;Om Zimstake</translation>
+        <source>&amp;About GamerHolicCoin</source>
+        <translation>&amp;Om GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Zimstake client</source>
-        <translation>Zimstake Klient</translation>
+        <source>GamerHolicCoin client</source>
+        <translation>GamerHolicCoin Klient</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Zimstake network</source>
-        <translation><numerusform>%n aktiv forbindelse til Zimstake netværk</numerusform><numerusform>%n aktive forbindelser til Zimstake netværk</numerusform></translation>
+        <source>%n active connection(s) to GamerHolicCoin network</source>
+        <translation><numerusform>%n aktiv forbindelse til GamerHolicCoin netværk</numerusform><numerusform>%n aktive forbindelser til GamerHolicCoin netværk</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-312"/>
-        <source>About Zimstake card</source>
-        <translation>Om Zimstake kort</translation>
+        <source>About GamerHolicCoin card</source>
+        <translation>Om GamerHolicCoin kort</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Zimstake card</source>
-        <translation>Vis oplysninger om Zimstake kort</translation>
+        <source>Show information about GamerHolicCoin card</source>
+        <translation>Vis oplysninger om GamerHolicCoin kort</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -669,8 +669,8 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Zimstake address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Zimstake adresse eller misdannede URI parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig GamerHolicCoin adresse eller misdannede URI parametre.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,7 +729,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Zimstake can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. GamerHolicCoin can no longer continue safely and will quit.</source>
         <translation>Der opstod en fejl under forsøg på at gemme dataene i tegnebogen til den nye placering.</translation>
     </message>
 </context>
@@ -1063,8 +1063,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Zimstake address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig Zimstake adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GamerHolicCoin address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig GamerHolicCoin adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Zimstake-Qt</source>
-        <translation>Zimstake-Qt</translation>
+        <source>GamerHolicCoin-Qt</source>
+        <translation>GamerHolicCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Zimstake after logging in to the system.</source>
-        <translation>Automatisk start Zimstake efter at have logget ind på systemet.</translation>
+        <source>Automatically start GamerHolicCoin after logging in to the system.</source>
+        <translation>Automatisk start GamerHolicCoin efter at have logget ind på systemet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Zimstake on system login</source>
-        <translation>&amp;Start Zimstake ved systems login</translation>
+        <source>&amp;Start GamerHolicCoin on system login</source>
+        <translation>&amp;Start GamerHolicCoin ved systems login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1180,8 +1180,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Zimstake client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisk åbne Zimstake klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
+        <source>Automatically open the GamerHolicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisk åbne GamerHolicCoin klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1190,8 +1190,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Zimstake network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Opret forbindelse til Zimstake netværk via en SOCKS proxy (fx ved tilslutning gennem Tor).</translation>
+        <source>Connect to the GamerHolicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Opret forbindelse til GamerHolicCoin netværk via en SOCKS proxy (fx ved tilslutning gennem Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1265,8 +1265,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Zimstake.</source>
-        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af Zimstake tegnebog.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GamerHolicCoin.</source>
+        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af GamerHolicCoin tegnebog.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1280,8 +1280,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Zimstake addresses in the transaction list or not.</source>
-        <translation>Få vist Zimstake adresser på listen over transaktioner eller ej.</translation>
+        <source>Whether to show GamerHolicCoin addresses in the transaction list or not.</source>
+        <translation>Få vist GamerHolicCoin adresser på listen over transaktioner eller ej.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1327,8 +1327,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Zimstake.</source>
-        <translation>Denne indstilling vil træde i kraft efter genstart af Zimstake.</translation>
+        <source>This setting will take effect after restarting GamerHolicCoin.</source>
+        <translation>Denne indstilling vil træde i kraft efter genstart af GamerHolicCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1346,8 +1346,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zimstake network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med Zimstake netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerHolicCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med GamerHolicCoin netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1562,8 +1562,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Zimstake-Qt help message to get a list with possible Zimstake command-line options.</source>
-        <translation>Vis Zimstake-Qt hjælpe besked for at få en liste med mulige Zimstake kommandolinjeparametre.</translation>
+        <source>Show the GamerHolicCoin-Qt help message to get a list with possible GamerHolicCoin command-line options.</source>
+        <translation>Vis GamerHolicCoin-Qt hjælpe besked for at få en liste med mulige GamerHolicCoin kommandolinjeparametre.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1582,13 +1582,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Zimstake - Debug window</source>
-        <translation>Zimstake - Debug vindue</translation>
+        <source>GamerHolicCoin - Debug window</source>
+        <translation>GamerHolicCoin - Debug vindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Zimstake Core</source>
-        <translation>Zimstake Kerne</translation>
+        <source>GamerHolicCoin Core</source>
+        <translation>GamerHolicCoin Kerne</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,8 +1597,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Zimstake debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Zimstake debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
+        <source>Open the GamerHolicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn GamerHolicCoin debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1607,8 +1607,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Zimstake RPC console.</source>
-        <translation>Velkommen til Zimstake RPC-konsol.</translation>
+        <source>Welcome to the GamerHolicCoin RPC console.</source>
+        <translation>Velkommen til GamerHolicCoin RPC-konsol.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1766,8 +1766,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Zimstake address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en Zimstake-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en GamerHolicCoin-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1866,8 +1866,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Zimstake address</source>
-        <translation>ADVARSEL: Ugyldig Zimstake adresse</translation>
+        <source>WARNING: Invalid GamerHolicCoin address</source>
+        <translation>ADVARSEL: Ugyldig GamerHolicCoin adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1940,8 +1940,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Zimstake address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en Zimstake-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en GamerHolicCoin-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2001,8 +2001,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Zimstake address</source>
-        <translation>Underskriv brevet for at bevise du ejer denne Zimstake adresse</translation>
+        <source>Sign the message to prove you own this GamerHolicCoin address</source>
+        <translation>Underskriv brevet for at bevise du ejer denne GamerHolicCoin adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Zimstake address</source>
-        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne Zimstake adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified GamerHolicCoin address</source>
+        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne GamerHolicCoin adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2044,8 +2044,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Zimstake address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en Zimstake-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en GamerHolicCoin-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2054,8 +2054,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Zimstake signature</source>
-        <translation>Indtast Zimstake underskrift</translation>
+        <source>Enter GamerHolicCoin signature</source>
+        <translation>Indtast GamerHolicCoin underskrift</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2625,8 +2625,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Zimstake version</source>
-        <translation>Zimstake version</translation>
+        <source>GamerHolicCoin version</source>
+        <translation>GamerHolicCoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2635,8 +2635,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or zimstaked</source>
-        <translation>Send kommando til-server eller zimstaked</translation>
+        <source>Send command to -server or gamerholiccoind</source>
+        <translation>Send kommando til-server eller gamerholiccoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2655,13 +2655,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: zimstake.conf)</source>
-        <translation>Angiv konfigurationsfil (default: zimstake.conf)</translation>
+        <source>Specify configuration file (default: gamerholiccoin.conf)</source>
+        <translation>Angiv konfigurationsfil (default: gamerholiccoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: zimstaked.pid)</source>
-        <translation>Angiv pid fil (standard: zimstaked.pid)</translation>
+        <source>Specify pid file (default: gamerholiccoind.pid)</source>
+        <translation>Angiv pid fil (standard: gamerholiccoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2810,8 +2810,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Zimstake will not work properly.</source>
-        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil Zimstake ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerHolicCoin will not work properly.</source>
+        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil GamerHolicCoin ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3000,24 +3000,24 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=zimstakerpc
+rpcuser=gamerholiccoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Zimstake Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com
 </source>
         <translation>% s, skal du indstille et rpcpassword i konfigurationsfilen: 
 % s 
 Det anbefales at bruge følgende tilfældig adgangskode: 
-rpcuser = zimstakerpc  
+rpcuser = gamerholiccoinrpc  
 rpcpassword =% s  
 (du behøver ikke at huske denne adgangskode)  
 Brugernavn og adgangskode må ikke være den samme.  
 Hvis filen ikke findes, skal du oprette den med filtilladelser ejer-læsbar-kun. 
 Det kan også anbefales at sætte alertnotify så du får besked om problemer; 
-for eksempel: alertnotify = echo%% s | mail-s &quot;Zimstake Alert&quot; admin@foo.com 
+for eksempel: alertnotify = echo%% s | mail-s &quot;GamerHolicCoin Alert&quot; admin@foo.com 
 </translation>
     </message>
     <message>
@@ -3142,13 +3142,13 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;Zimstake Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Zimstake is probably already running.</source>
-        <translation>Kan ikke få en lås på data mappe% s. Zimstake kører sikkert allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  GamerHolicCoin is probably already running.</source>
+        <translation>Kan ikke få en lås på data mappe% s. GamerHolicCoin kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Zimstake</source>
-        <translation>Zimstake</translation>
+        <source>GamerHolicCoin</source>
+        <translation>GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3182,13 +3182,13 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;Zimstake Alert&quot; admin@f
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Zimstake</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af Zimstake</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GamerHolicCoin</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Zimstake to complete</source>
-        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart Zimstake for fuldføre</translation>
+        <source>Wallet needed to be rewritten: restart GamerHolicCoin to complete</source>
+        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart GamerHolicCoin for fuldføre</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3257,8 +3257,8 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;Zimstake Alert&quot; admin@f
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Zimstake is probably already running.</source>
-        <translation>Kunne ikke binde sig til% s på denne computer. Zimstake kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. GamerHolicCoin is probably already running.</source>
+        <translation>Kunne ikke binde sig til% s på denne computer. GamerHolicCoin kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-97"/>

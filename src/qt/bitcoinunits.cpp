@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("ZS");
-    case mBTC: return QString("mZS");
-    case uBTC: return QString::fromUtf8("μZS");
+    case BTC: return QString("GHC");
+    case mBTC: return QString("mGHC");
+    case uBTC: return QString::fromUtf8("μGHC");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Zimstakes");
-    case mBTC: return QString("Milli-Zimstakes (1 / 1,000)");
-    case uBTC: return QString("Micro-Zimstakes (1 / 1,000,000)");
+    case BTC: return QString("GamerHolicCoins");
+    case mBTC: return QString("Milli-GamerHolicCoins (1 / 1,000)");
+    case uBTC: return QString("Micro-GamerHolicCoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }

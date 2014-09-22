@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Zimstake</source>
-        <translation>О Zimstake</translation>
+        <source>About GamerHolicCoin</source>
+        <translation>О GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Zimstake&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Zimstake&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GamerHolicCoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Zimstake developers</source>
+Copyright © 2014 The GamerHolicCoin developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2014 Разработчики Zimstake</translation>
+Все права защищены © 2014 Разработчики GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,7 +65,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Zimstake addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your GamerHolicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Zimstake address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Zimstake</translation>
+        <source>Sign a message to prove you own a GamerHolicCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Zimstake address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Zimstake</translation>
+        <source>Verify a message to ensure it was signed with a specified GamerHolicCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,7 +263,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Zimstake will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>GamerHolicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -377,8 +377,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Zimstake</source>
-        <translation>Показать информацию о Zimstake&apos;е</translation>
+        <source>Show information about GamerHolicCoin</source>
+        <translation>Показать информацию о GamerHolicCoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Zimstake address</source>
-        <translation>Отправить монеты на указанный адрес Zimstake</translation>
+        <source>Send coins to a GamerHolicCoin address</source>
+        <translation>Отправить монеты на указанный адрес GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Zimstake</source>
-        <translation>Изменить параметры конфигурации Zimstake</translation>
+        <source>Modify configuration options for GamerHolicCoin</source>
+        <translation>Изменить параметры конфигурации GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-202"/>
-        <source>Zimstake</source>
-        <translation>Zimstake</translation>
+        <source>GamerHolicCoin</source>
+        <translation>GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Zimstake</source>
-        <translation>&amp;О Zimstake</translation>
+        <source>&amp;About GamerHolicCoin</source>
+        <translation>&amp;О GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,12 +539,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Zimstake client</source>
-        <translation>Zimstake клиент</translation>
+        <source>GamerHolicCoin client</source>
+        <translation>GamerHolicCoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Zimstake network</source>
+        <source>%n active connection(s) to GamerHolicCoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -584,12 +584,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-312"/>
-        <source>About Zimstake card</source>
-        <translation>О карте Zimstake</translation>
+        <source>About GamerHolicCoin card</source>
+        <translation>О карте GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Zimstake card</source>
+        <source>Show information about GamerHolicCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -669,8 +669,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Zimstake address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Zimstake или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом GamerHolicCoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,8 +729,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Zimstake can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Zimstake не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. GamerHolicCoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. GamerHolicCoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -1049,8 +1049,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Zimstake address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Zimstake-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GamerHolicCoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным GamerHolicCoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1068,8 +1068,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Zimstake-Qt</source>
-        <translation>Zimstake-Qt</translation>
+        <source>GamerHolicCoin-Qt</source>
+        <translation>GamerHolicCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1141,13 +1141,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Zimstake after logging in to the system.</source>
-        <translation>Автоматически запускать Zimstake после входа в систему</translation>
+        <source>Automatically start GamerHolicCoin after logging in to the system.</source>
+        <translation>Автоматически запускать GamerHolicCoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Zimstake on system login</source>
-        <translation>&amp;Запускать Zimstake при входе в систему</translation>
+        <source>&amp;Start GamerHolicCoin on system login</source>
+        <translation>&amp;Запускать GamerHolicCoin при входе в систему</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1166,8 +1166,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Zimstake client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Zimstake-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the GamerHolicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для GamerHolicCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1176,8 +1176,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Zimstake network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Zimstake через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the GamerHolicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети GamerHolicCoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1251,8 +1251,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Zimstake.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Zimstake.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GamerHolicCoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска GamerHolicCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1266,8 +1266,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Zimstake addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Zimstake в списке транзакций.</translation>
+        <source>Whether to show GamerHolicCoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса GamerHolicCoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1313,8 +1313,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Zimstake.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Zimstake</translation>
+        <source>This setting will take effect after restarting GamerHolicCoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1332,8 +1332,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zimstake network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Zimstake после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerHolicCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью GamerHolicCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1548,8 +1548,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Zimstake-Qt help message to get a list with possible Zimstake command-line options.</source>
-        <translation>Показать помощь по Zimstake-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the GamerHolicCoin-Qt help message to get a list with possible GamerHolicCoin command-line options.</source>
+        <translation>Показать помощь по GamerHolicCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1568,13 +1568,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Zimstake - Debug window</source>
-        <translation>Zimstake - Окно отладки</translation>
+        <source>GamerHolicCoin - Debug window</source>
+        <translation>GamerHolicCoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Zimstake Core</source>
-        <translation>Ядро Zimstake</translation>
+        <source>GamerHolicCoin Core</source>
+        <translation>Ядро GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1583,8 +1583,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Zimstake debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Zimstake из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the GamerHolicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл GamerHolicCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1593,8 +1593,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Zimstake RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Zimstake.</translation>
+        <source>Welcome to the GamerHolicCoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль GamerHolicCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1752,8 +1752,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Zimstake address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите Zimstake-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите GamerHolicCoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1852,7 +1852,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Zimstake address</source>
+        <source>WARNING: Invalid GamerHolicCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1926,8 +1926,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Zimstake address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите Zimstake-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите GamerHolicCoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1987,8 +1987,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Zimstake address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Zimstake</translation>
+        <source>Sign the message to prove you own this GamerHolicCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2019,8 +2019,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Zimstake address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Zimstake</translation>
+        <source>Verify the message to ensure it was signed with the specified GamerHolicCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2030,8 +2030,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Zimstake address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите адрес Zimstake (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите адрес GamerHolicCoin (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2040,8 +2040,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Zimstake signature</source>
-        <translation>Введите подпись Zimstake</translation>
+        <source>Enter GamerHolicCoin signature</source>
+        <translation>Введите подпись GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2611,7 +2611,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Zimstake version</source>
+        <source>GamerHolicCoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2621,8 +2621,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or zimstaked</source>
-        <translation>Отправить команду на -server или zimstaked</translation>
+        <source>Send command to -server or gamerholiccoind</source>
+        <translation>Отправить команду на -server или gamerholiccoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2642,13 +2642,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: zimstake.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: zimstake.conf)</translation>
+        <source>Specify configuration file (default: gamerholiccoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: gamerholiccoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: zimstaked.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: zimstaked.pid)</translation>
+        <source>Specify pid file (default: gamerholiccoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: gamerholiccoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2797,8 +2797,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Zimstake will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Zimstake будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerHolicCoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, GamerHolicCoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2987,13 +2987,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=zimstakerpc
+rpcuser=gamerholiccoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Zimstake Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3119,13 +3119,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Zimstake Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Zimstake is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  GamerHolicCoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Zimstake</source>
-        <translation>Zimstake</translation>
+        <source>GamerHolicCoin</source>
+        <translation>GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3159,13 +3159,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Zimstake Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Zimstake</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Zimstake</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GamerHolicCoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию GamerHolicCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Zimstake to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Zimstake для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart GamerHolicCoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите GamerHolicCoin для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3234,8 +3234,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Zimstake Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Zimstake is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Zimstake уже работает.</translation>
+        <source>Unable to bind to %s on this computer. GamerHolicCoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, GamerHolicCoin уже работает.</translation>
     </message>
     <message>
         <location line="-97"/>

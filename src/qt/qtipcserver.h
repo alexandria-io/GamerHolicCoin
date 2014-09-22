@@ -1,8 +1,8 @@
 #ifndef QTIPCSERVER_H
 #define QTIPCSERVER_H
 
-// Define Zimstake-Qt message queue name
-#define BITCOINURI_QUEUE_NAME "ZimstakeURI"
+// Define GamerHolicCoin-Qt message queue name
+#define BITCOINURI_QUEUE_NAME "GamerHolicCoinURI"
 
 void ipcScanRelay(int argc, char *argv[]);
 void ipcInit(int argc, char *argv[]);

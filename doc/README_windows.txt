@@ -1,4 +1,4 @@
-Zimstake 1.0.0
+GamerHolicCoin 1.0.0
 
 Copyright (c) 2013 NovaCoin Developers
 Copyright (c) 2011-2013 PPCoin Developers
@@ -11,7 +11,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Zimstake is a free open source project derived from Bitcoin, with
+GamerHolicCoin is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient SHA-256 based crypto-currency.
 Built on the foundation of Bitcoin, PPCoin and NovaCoin, innovations such as proof-of-stake and SHA-256
 help further advance the field of crypto-currency.
