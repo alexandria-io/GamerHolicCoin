@@ -40,12 +40,12 @@ CBigNum bnProofOfWorkLimit(~uint256(0) >> 30);
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
-unsigned int nTargetSpacing = 1 * 60; // 1 minute
-unsigned int nStakeMinAge = 12 * 60 * 60; // 12 hours
+unsigned int nTargetSpacing = 2 * 60; // 2 minutes
+unsigned int nStakeMinAge = 8 * 60 * 60; // 8 hours
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 115;
+int nCoinbaseMaturity = 250;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -966,7 +966,17 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
-    int64_t nSubsidy = 512 * COIN;
+    int64_t nSubsidy = 0;
+    
+    if (nHeight <= 0)
+        nSubsidy = 0;
+    else
+    if (nHeight <= 10000) 
+        nSubsidy = 100 * COIN;
+    else
+    if (nHeight <= LAST_POW_BLOCK)
+        nSubsidy = 2.5 * COIN;
+    
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
