@@ -2533,9 +2533,9 @@ bool LoadBlockIndex(bool fAllowNew)
         //block.nNonce = 205521912
         //block.nBits = 486801407
 
-        const char* pszTimestamp = "World's fattest woman needs to lose 20 STONE in order to have life-saving gastric band operation";
+        const char* pszTimestamp = "September 22nd, 2014 - GAMESPOT: Happy Birthday, Nintendo! Company Turns 125";
         CTransaction txNew;
-        txNew.nTime = 1398539986;
+        txNew.nTime = 1411430400;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 125125512 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2545,7 +2545,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1398539986;
+        block.nTime    = 1411430400;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = !fTestNet ? 205521912 : 205521912;
 
