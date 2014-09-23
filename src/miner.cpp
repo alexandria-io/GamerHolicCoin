@@ -122,6 +122,8 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake, int64_t* pFees)
     txNew.vin[0].prevout.SetNull();
     txNew.vout.resize(1);
 
+    int nHeight = pindexPrev->nHeight+1; // height of new block    
+
     if (!fProofOfStake)
     {
         CReserveKey reservekey(pwallet);
