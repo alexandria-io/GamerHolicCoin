@@ -974,7 +974,8 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
     if (nHeight <= 10000) 
         nSubsidy = 100 * COIN;
     else
-    if (nHeight <= LAST_POW_BLOCK)
+    //if (nHeight <= LAST_POW_BLOCK)
+    if (nHeight >= 10001)
         nSubsidy = 2.5 * COIN;
     
     if (fDebug && GetBoolArg("-printcreation"))
