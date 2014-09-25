@@ -147,9 +147,9 @@ int main(int argc, char *argv[])
     app.setOrganizationName("GamerHolicCoin");
     //XXX app.setOrganizationDomain("");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("gamerholiccoin-qt-testnet");
+        app.setApplicationName("GamerHolicCoin-Qt-testnet");
     else
-        app.setApplicationName("gamerholiccoin-qt");
+        app.setApplicationName("GamerHolicCoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
