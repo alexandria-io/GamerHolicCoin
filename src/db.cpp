@@ -277,7 +277,10 @@ CDB::CDB(const char *pszFile, const char* pszMode) :
                 pdb = NULL;
                 --bitdb.mapFileUseCount[strFile];
                 strFile = "";
-                throw runtime_error(strprintf("CDB() : can't open database file %s, error %d", pszFile, ret));
+                 QMessageBox::warning(this, tr("Wallet created"),
+                                         "<qt>" + 
+                                         tr("GamerHolicCoin will close now to finish the installation. "
+                  //throw runtime_error(strprintf("CDB() : can't open database file %s, error %d", pszFile, ret));
             }
 
             if (fCreate && !Exists(string("version")))
