@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GamerHolicCoin</source>
-        <translation>O GamerHolicCoin</translation>
+        <source>About GamerholicCoin</source>
+        <translation>O GamerholicCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GamerHolicCoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GamerholicCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerHolicCoin developers</source>
+Copyright © 2014 The GamerholicCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your GamerHolicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši GamerHolicCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your GamerholicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši GamerholicCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +78,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GamerHolicCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva GamerHolicCoin naslova</translation>
+        <source>Sign a message to prove you own a GamerholicCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva GamerholicCoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified GamerHolicCoin address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim GamerHolicCoin naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified GamerholicCoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim GamerholicCoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>GamerHolicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>GamerHolicCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>GamerholicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GamerholicCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about GamerHolicCoin</source>
-        <translation>Pokaži informacije o GamerHolicCoin</translation>
+        <source>Show information about GamerholicCoin</source>
+        <translation>Pokaži informacije o GamerholicCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,12 +425,12 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a GamerHolicCoin address</source>
-        <translation>Pošlji kovance na GamerHolicCoin naslov</translation>
+        <source>Send coins to a GamerholicCoin address</source>
+        <translation>Pošlji kovance na GamerholicCoin naslov</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for GamerHolicCoin</source>
+        <source>Modify configuration options for GamerholicCoin</source>
         <translation>Spremeni nastavitve za Blackcoin</translation>
     </message>
     <message>
@@ -470,8 +470,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-202"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About GamerHolicCoin</source>
-        <translation>&amp;O GamerHolicCoin</translation>
+        <source>&amp;About GamerholicCoin</source>
+        <translation>&amp;O GamerholicCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>GamerHolicCoin client</source>
-        <translation>GamerHolicCoin program</translation>
+        <source>GamerholicCoin client</source>
+        <translation>GamerholicCoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to GamerHolicCoin network</source>
-        <translation><numerusform>%n aktivne povezave na GamerHolicCoin omrežje</numerusform><numerusform>%n aktivnih povezav na GamerHolicCoin omrežje</numerusform><numerusform>%n aktivnih povezav na GamerHolicCoin omrežje</numerusform><numerusform>%n aktivnih povezav na GamerHolicCoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to GamerholicCoin network</source>
+        <translation><numerusform>%n aktivne povezave na GamerholicCoin omrežje</numerusform><numerusform>%n aktivnih povezav na GamerholicCoin omrežje</numerusform><numerusform>%n aktivnih povezav na GamerholicCoin omrežje</numerusform><numerusform>%n aktivnih povezav na GamerholicCoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -582,12 +582,12 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-312"/>
-        <source>About GamerHolicCoin card</source>
+        <source>About GamerholicCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about GamerHolicCoin card</source>
+        <source>Show information about GamerholicCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -667,8 +667,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega GamerHolicCoin naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GamerholicCoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega GamerholicCoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -727,8 +727,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. GamerHolicCoin can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program GamerHolicCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. GamerholicCoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program GamerholicCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GamerHolicCoin address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven GamerHolicCoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GamerholicCoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven GamerholicCoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>GamerHolicCoin-Qt</source>
-        <translation>GamerHolicCoin-Qt</translation>
+        <source>GamerholicCoin-Qt</source>
+        <translation>GamerholicCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GamerHolicCoin after logging in to the system.</source>
-        <translation>Avtomatično zaženi GamerHolicCoin ob zagonu sistema.</translation>
+        <source>Automatically start GamerholicCoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi GamerholicCoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GamerHolicCoin on system login</source>
-        <translation>&amp;Zaženi GamerHolicCoin ob prijavi v sistem</translation>
+        <source>&amp;Start GamerholicCoin on system login</source>
+        <translation>&amp;Zaženi GamerholicCoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1178,8 +1178,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GamerHolicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za GamerHolicCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the GamerholicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za GamerholicCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1188,8 +1188,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GamerHolicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na GamerHolicCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the GamerholicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na GamerholicCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1263,8 +1263,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu GamerHolicCoin aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu GamerholicCoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1278,8 +1278,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GamerHolicCoin addresses in the transaction list or not.</source>
-        <translation>Izbira prikaza GamerHolicCoin naslovov v seznamu transakcij.</translation>
+        <source>Whether to show GamerholicCoin addresses in the transaction list or not.</source>
+        <translation>Izbira prikaza GamerholicCoin naslovov v seznamu transakcij.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1325,8 +1325,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu GamerHolicCoin aplikacije</translation>
+        <source>This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu GamerholicCoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1344,8 +1344,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerHolicCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z GamerHolicCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerholicCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z GamerholicCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1560,8 +1560,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GamerHolicCoin-Qt help message to get a list with possible GamerHolicCoin command-line options.</source>
-        <translation>Prikaži GamerHolicCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice GamerHolicCoin aplikacije</translation>
+        <source>Show the GamerholicCoin-Qt help message to get a list with possible GamerholicCoin command-line options.</source>
+        <translation>Prikaži GamerholicCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice GamerholicCoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1580,13 +1580,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>GamerHolicCoin - Debug window</source>
-        <translation>GamerHolicCoin - okno za odpravljanje napak</translation>
+        <source>GamerholicCoin - Debug window</source>
+        <translation>GamerholicCoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GamerHolicCoin Core</source>
-        <translation>GamerHolicCoin jedro</translation>
+        <source>GamerholicCoin Core</source>
+        <translation>GamerholicCoin jedro</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1595,8 +1595,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GamerHolicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri GamerHolicCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the GamerholicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri GamerholicCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1605,8 +1605,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GamerHolicCoin RPC console.</source>
-        <translation>Dobrodošli v GamerHolicCoin RPC konzoli.</translation>
+        <source>Welcome to the GamerholicCoin RPC console.</source>
+        <translation>Dobrodošli v GamerholicCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1764,8 +1764,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite GamerHolicCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite GamerholicCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1864,8 +1864,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid GamerHolicCoin address</source>
-        <translation>OPOZORILO: Neveljaven GamerHolicCoin naslov</translation>
+        <source>WARNING: Invalid GamerholicCoin address</source>
+        <translation>OPOZORILO: Neveljaven GamerholicCoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1938,8 +1938,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite GamerHolicCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite GamerholicCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1999,8 +1999,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GamerHolicCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva GamerHolicCoin naslova</translation>
+        <source>Sign the message to prove you own this GamerholicCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva GamerholicCoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2031,8 +2031,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GamerHolicCoin address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim GamerHolicCoin naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified GamerholicCoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim GamerholicCoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2042,8 +2042,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite GamerHolicCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite GamerholicCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2052,8 +2052,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GamerHolicCoin signature</source>
-        <translation>Vnesite GamerHolicCoin podpis</translation>
+        <source>Enter GamerholicCoin signature</source>
+        <translation>Vnesite GamerholicCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2623,8 +2623,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>GamerHolicCoin version</source>
-        <translation>GamerHolicCoin različica</translation>
+        <source>GamerholicCoin version</source>
+        <translation>GamerholicCoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2808,8 +2808,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerHolicCoin will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno GamerHolicCoin ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerholicCoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno GamerholicCoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3004,7 +3004,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, nastaviti morate rpcgeslo v konfiguracijski datoteki: 
  %s
@@ -3015,7 +3015,7 @@ rpcpassword=%s
 Uporabniško ime in geslo NE SMETA biti ista. 
 Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke. 
 Prav tako je priporočeno, da nastavite alernotify, tkako da vas opozori na probleme;
-na primer: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alarm&quot; admin@foo.com
+na primer: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alarm&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3140,13 +3140,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alarm&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  GamerHolicCoin is probably already running.</source>
-        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija GamerHolicCoin je verjetno že zagnana.</translation>
+        <source>Cannot obtain a lock on data directory %s.  GamerholicCoin is probably already running.</source>
+        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija GamerholicCoin je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alarm&quot; admin
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GamerHolicCoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo GamerHolicCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GamerholicCoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo GamerholicCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GamerHolicCoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite GamerHolicCoin za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart GamerholicCoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite GamerholicCoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ na primer: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alarm&quot; admin
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. GamerHolicCoin is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča GamerHolicCoin aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. GamerholicCoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča GamerholicCoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-97"/>

@@ -9,10 +9,10 @@ from datetime import date
 bitcoinDir = "./";
 
 inFile     = bitcoinDir+"/share/qt/Info.plist"
-outFile    = "GamerHolicCoin-Qt.app/Contents/Info.plist"
+outFile    = "GamerholicCoin-Qt.app/Contents/Info.plist"
 version    = "unknown";
 
-fileForGrabbingVersion = bitcoinDir+"GamerHolicCoin-qt.pro"
+fileForGrabbingVersion = bitcoinDir+"GamerholicCoin-qt.pro"
 for line in open(fileForGrabbingVersion):
 	lineArr = line.replace(" ", "").split("=");
 	if lineArr[0].startswith("VERSION"):

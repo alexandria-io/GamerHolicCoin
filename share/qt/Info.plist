@@ -7,7 +7,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>$VERSION, Copyright © 2014-$YEAR The GamerHolicCoin developers</string>
+	<string>$VERSION, Copyright © 2014-$YEAR The GamerholicCoin developers</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$VERSION</string>
 	<key>CFBundleVersion</key>
@@ -15,16 +15,16 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>GamerHolicCoin-Qt</string>
+	<string>GamerholicCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.gamerholiccoin.GamerHolicCoin-Qt</string>
+	<string>com.gamerholiccoin.GamerholicCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>com.gamerholiccoin.GamerHolicCoinPayment</string>
+            <string>com.gamerholiccoin.GamerholicCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>gamerholiccoin</string>

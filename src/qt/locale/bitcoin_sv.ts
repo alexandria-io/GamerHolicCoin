@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GamerHolicCoin</source>
+        <source>About GamerholicCoin</source>
         <translation>Vad du behöver veta om Blackcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerHolicCoin developers</source>
+Copyright © 2014 The GamerholicCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerHolicCoin developers</translation>
+Copyright © 2014 The GamerholicCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -66,8 +66,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your GamerHolicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dessa är dina GamerHolicCoin adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
+        <source>These are your GamerholicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dessa är dina GamerholicCoin adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -81,8 +81,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GamerHolicCoin address</source>
-        <translation>Signera ett meddelande för att bevisa att du äger GamerHolicCoin adressen</translation>
+        <source>Sign a message to prove you own a GamerholicCoin address</source>
+        <translation>Signera ett meddelande för att bevisa att du äger GamerholicCoin adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,8 +96,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified GamerHolicCoin address</source>
-        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik GamerHolicCoin adress</translation>
+        <source>Verify a message to ensure it was signed with a specified GamerholicCoin address</source>
+        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik GamerholicCoin adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -264,7 +264,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-58"/>
-        <source>GamerHolicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>GamerholicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Blackcoin plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
     </message>
     <message>
@@ -378,8 +378,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about GamerHolicCoin</source>
-        <translation>Visa information om GamerHolicCoin</translation>
+        <source>Show information about GamerholicCoin</source>
+        <translation>Visa information om GamerholicCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -428,13 +428,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a GamerHolicCoin address</source>
-        <translation>Skicka coins till en GamerHolicCoin adress</translation>
+        <source>Send coins to a GamerholicCoin address</source>
+        <translation>Skicka coins till en GamerholicCoin adress</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for GamerHolicCoin</source>
-        <translation>Modifiera konfigurations-alternativ för GamerHolicCoin</translation>
+        <source>Modify configuration options for GamerholicCoin</source>
+        <translation>Modifiera konfigurations-alternativ för GamerholicCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -473,8 +473,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-202"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -483,8 +483,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About GamerHolicCoin</source>
-        <translation>&amp;Om GamerHolicCoin</translation>
+        <source>&amp;About GamerholicCoin</source>
+        <translation>&amp;Om GamerholicCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -540,13 +540,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>GamerHolicCoin client</source>
-        <translation>GamerHolicCoin klient</translation>
+        <source>GamerholicCoin client</source>
+        <translation>GamerholicCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to GamerHolicCoin network</source>
-        <translation><numerusform>%n aktiv anslutning till GamerHolicCoin nätverket</numerusform><numerusform>%n aktiva anslutning till GamerHolicCoin nätverket</numerusform></translation>
+        <source>%n active connection(s) to GamerholicCoin network</source>
+        <translation><numerusform>%n aktiv anslutning till GamerholicCoin nätverket</numerusform><numerusform>%n aktiva anslutning till GamerholicCoin nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -585,13 +585,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-312"/>
-        <source>About GamerHolicCoin card</source>
-        <translation>Om GamerHolicCoin kortet</translation>
+        <source>About GamerholicCoin card</source>
+        <translation>Om GamerholicCoin kortet</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about GamerHolicCoin card</source>
-        <translation>Via information om GamerHolicCoin kortet</translation>
+        <source>Show information about GamerholicCoin card</source>
+        <translation>Via information om GamerholicCoin kortet</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -670,8 +670,8 @@ Adress: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters.</source>
-        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig GamerHolicCoin adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GamerholicCoin address or malformed URI parameters.</source>
+        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig GamerholicCoin adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -730,7 +730,7 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. GamerHolicCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. GamerholicCoin can no longer continue safely and will quit.</source>
         <translation>Ett fatalt fel uppstod. Blackcoin kan inte fortsätta och stänger programmet.</translation>
     </message>
 </context>
@@ -1064,7 +1064,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GamerHolicCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid GamerholicCoin address.</source>
         <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig Blackcoin adress.</translation>
     </message>
     <message>
@@ -1083,8 +1083,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>GamerHolicCoin-Qt</source>
-        <translation>GamerHolicCoin-Qt</translation>
+        <source>GamerholicCoin-Qt</source>
+        <translation>GamerholicCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1156,12 +1156,12 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GamerHolicCoin after logging in to the system.</source>
+        <source>Automatically start GamerholicCoin after logging in to the system.</source>
         <translation>Starta Blackcoin automatiskt vid inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GamerHolicCoin on system login</source>
+        <source>&amp;Start GamerholicCoin on system login</source>
         <translation>&amp;Starta Blackcoin vid inloggning</translation>
     </message>
     <message>
@@ -1181,8 +1181,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GamerHolicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt GamerHolicCoin klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
+        <source>Automatically open the GamerholicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt GamerholicCoin klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1191,8 +1191,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GamerHolicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till GamerHolicCoin nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the GamerholicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till GamerholicCoin nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1266,8 +1266,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av GamerHolicCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av GamerholicCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1281,8 +1281,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GamerHolicCoin addresses in the transaction list or not.</source>
-        <translation>Om GamerHolicCoin adresser skall visas i transaktionslistan eller inte.</translation>
+        <source>Whether to show GamerholicCoin addresses in the transaction list or not.</source>
+        <translation>Om GamerholicCoin adresser skall visas i transaktionslistan eller inte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1328,8 +1328,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>Inställningen börjar gälla efter omstart av GamerHolicCoin.</translation>
+        <source>This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>Inställningen börjar gälla efter omstart av GamerholicCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1347,8 +1347,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerHolicCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med GamerHolicCoin nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerholicCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med GamerholicCoin nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1563,8 +1563,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GamerHolicCoin-Qt help message to get a list with possible GamerHolicCoin command-line options.</source>
-        <translation>Visa GamerHolicCoin-Qt hjälp meddelandet för att få en lista över möjliga GamerHolicCoin kommandoradsalternativ.</translation>
+        <source>Show the GamerholicCoin-Qt help message to get a list with possible GamerholicCoin command-line options.</source>
+        <translation>Visa GamerholicCoin-Qt hjälp meddelandet för att få en lista över möjliga GamerholicCoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1583,13 +1583,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>GamerHolicCoin - Debug window</source>
-        <translation>GamerHolicCoin - Felsökningsfönster</translation>
+        <source>GamerholicCoin - Debug window</source>
+        <translation>GamerholicCoin - Felsökningsfönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GamerHolicCoin Core</source>
-        <translation>GamerHolicCoin Core</translation>
+        <source>GamerholicCoin Core</source>
+        <translation>GamerholicCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1598,8 +1598,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GamerHolicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna GamerHolicCoin felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
+        <source>Open the GamerholicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna GamerholicCoin felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1608,8 +1608,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GamerHolicCoin RPC console.</source>
-        <translation>Välkommen till GamerHolicCoin RPC konsoll.</translation>
+        <source>Welcome to the GamerholicCoin RPC console.</source>
+        <translation>Välkommen till GamerholicCoin RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1767,8 +1767,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en GamerHolicCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en GamerholicCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1867,8 +1867,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid GamerHolicCoin address</source>
-        <translation>VARNING: Ogiltig GamerHolicCoin adress</translation>
+        <source>WARNING: Invalid GamerholicCoin address</source>
+        <translation>VARNING: Ogiltig GamerholicCoin adress</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1941,8 +1941,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en GamerHolicCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en GamerholicCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2002,8 +2002,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GamerHolicCoin address</source>
-        <translation>Signera meddelandet för att verifiera att du äger denna GamerHolicCoin adressen</translation>
+        <source>Sign the message to prove you own this GamerholicCoin address</source>
+        <translation>Signera meddelandet för att verifiera att du äger denna GamerholicCoin adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2034,8 +2034,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GamerHolicCoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna GamerHolicCoin adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified GamerholicCoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna GamerholicCoin adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2045,8 +2045,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en GamerHolicCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en GamerholicCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2055,8 +2055,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GamerHolicCoin signature</source>
-        <translation>Fyll i GamerHolicCoin signatur</translation>
+        <source>Enter GamerholicCoin signature</source>
+        <translation>Fyll i GamerholicCoin signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2626,8 +2626,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>GamerHolicCoin version</source>
-        <translation>GamerHolicCoin version</translation>
+        <source>GamerholicCoin version</source>
+        <translation>GamerholicCoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2811,7 +2811,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerHolicCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerholicCoin will not work properly.</source>
         <translation>Varning: Kolla att din dators tid och datum är rätt. Blackcoin kan inte fungera ordentligt om tiden i datorn är fel.</translation>
     </message>
     <message>
@@ -3007,7 +3007,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, du måste sätta rpcpassword i konfigurationsfilen:
  %s
@@ -3018,7 +3018,7 @@ rpcpassword=%s
 Användarnamnet och lösenordet FÅR INTE vara samma.
 Om filen inte finns, skapa den med endast ägarrättigheter.
 Det är också rekommenderat att sätta alertnotify så du blir notifierad om problem;
-till exempel: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Varning&quot; admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Varning&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3143,13 +3143,13 @@ till exempel: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Varning&quot; 
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  GamerHolicCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  GamerholicCoin is probably already running.</source>
         <translation>Kan inte låsa datan i mappen %s. Blackcoin är kanske redan startad.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3183,12 +3183,12 @@ till exempel: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Varning&quot; 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GamerHolicCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of GamerholicCoin</source>
         <translation>Kunde inte ladda wallet.dat: En nyare version av Blackcoin krävs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GamerHolicCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart GamerholicCoin to complete</source>
         <translation>Plånboken måste skrivas om: Starta om Blackcoin för att slutföra</translation>
     </message>
     <message>
@@ -3258,7 +3258,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Varning&quot; 
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. GamerHolicCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. GamerholicCoin is probably already running.</source>
         <translation>Kan inte binda till %s på denna dator. Blackcoin är sannolikt redan startad.</translation>
     </message>
     <message>

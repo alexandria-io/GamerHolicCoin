@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GamerHolicCoin</source>
+        <source>About GamerholicCoin</source>
         <translation>O Blackcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GamerHolicCoin&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GamerholicCoin&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerHolicCoin developers</source>
+Copyright © 2014 The GamerholicCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerHolicCoin developers</translation>
+Copyright © 2014 The GamerholicCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your GamerHolicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše GamerHolicCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, takže môžete sledovať, kto Vám platí.</translation>
+        <source>These are your GamerholicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše GamerholicCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, takže môžete sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GamerHolicCoin address</source>
-        <translation>Podpísať správu, že vlastníte GamerHolicCoin adresu</translation>
+        <source>Sign a message to prove you own a GamerholicCoin address</source>
+        <translation>Podpísať správu, že vlastníte GamerholicCoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified GamerHolicCoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou GamerHolicCoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified GamerholicCoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou GamerholicCoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>GamerHolicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>GamerHolicCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>GamerholicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GamerholicCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about GamerHolicCoin</source>
-        <translation>Zobraziť informácie o GamerHolicCoin</translation>
+        <source>Show information about GamerholicCoin</source>
+        <translation>Zobraziť informácie o GamerholicCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a GamerHolicCoin address</source>
-        <translation>Poslať mince na GamerHolicCoin adresu</translation>
+        <source>Send coins to a GamerholicCoin address</source>
+        <translation>Poslať mince na GamerholicCoin adresu</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for GamerHolicCoin</source>
-        <translation>Upraviť možnosti konfigurácie pre GamerHolicCoin</translation>
+        <source>Modify configuration options for GamerholicCoin</source>
+        <translation>Upraviť možnosti konfigurácie pre GamerholicCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-202"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About GamerHolicCoin</source>
-        <translation>&amp;O GamerHolicCoin</translation>
+        <source>&amp;About GamerholicCoin</source>
+        <translation>&amp;O GamerholicCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>GamerHolicCoin client</source>
-        <translation>GamerHolicCoin client</translation>
+        <source>GamerholicCoin client</source>
+        <translation>GamerholicCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to GamerHolicCoin network</source>
-        <translation><numerusform>%n aktívne spojenie s GamerHolicCoin sieťov</numerusform><numerusform>%n aktívnych spojení s GamerHolicCoin sieťov</numerusform><numerusform>%n aktívnych spojení s GamerHolicCoin sieťov</numerusform></translation>
+        <source>%n active connection(s) to GamerholicCoin network</source>
+        <translation><numerusform>%n aktívne spojenie s GamerholicCoin sieťov</numerusform><numerusform>%n aktívnych spojení s GamerholicCoin sieťov</numerusform><numerusform>%n aktívnych spojení s GamerholicCoin sieťov</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-312"/>
-        <source>About GamerHolicCoin card</source>
-        <translation>O GamerHolicCoin karte</translation>
+        <source>About GamerholicCoin card</source>
+        <translation>O GamerholicCoin karte</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about GamerHolicCoin card</source>
-        <translation>Zobraziť informácie o GamerHolicCoin karte</translation>
+        <source>Show information about GamerholicCoin card</source>
+        <translation>Zobraziť informácie o GamerholicCoin karte</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -668,8 +668,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! To môže byť spôsobené neplatnou GamerHolicCoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GamerholicCoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! To môže byť spôsobené neplatnou GamerholicCoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -728,8 +728,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. GamerHolicCoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. GamerHolicCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. GamerholicCoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. GamerholicCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GamerHolicCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou GamerHolicCoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GamerholicCoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou GamerholicCoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>GamerHolicCoin-Qt</source>
-        <translation>GamerHolicCoin-Qt</translation>
+        <source>GamerholicCoin-Qt</source>
+        <translation>GamerholicCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GamerHolicCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť GamerHolicCoin po prihlásení sa do systému.</translation>
+        <source>Automatically start GamerholicCoin after logging in to the system.</source>
+        <translation>Automaticky spustiť GamerholicCoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GamerHolicCoin on system login</source>
-        <translation>&amp;Spustiť GamerHolicCoin pri prihlásení do systému</translation>
+        <source>&amp;Start GamerholicCoin on system login</source>
+        <translation>&amp;Spustiť GamerholicCoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1179,8 +1179,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GamerHolicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta GamerHolicCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the GamerholicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta GamerholicCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1189,8 +1189,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GamerHolicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti GamerHolicCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the GamerholicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti GamerholicCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1264,8 +1264,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>Jazyk používateľského rozhrania je možné tu nastaviť. Toto nastavenie sa prejaví až po reštartovaní GamerHolicCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>Jazyk používateľského rozhrania je možné tu nastaviť. Toto nastavenie sa prejaví až po reštartovaní GamerholicCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1279,8 +1279,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GamerHolicCoin addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť GamerHolicCoin adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show GamerholicCoin addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť GamerholicCoin adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1326,8 +1326,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní GamerHolicCoin.</translation>
+        <source>This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní GamerholicCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1345,8 +1345,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerHolicCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou GamerHolicCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerholicCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou GamerholicCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1561,8 +1561,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GamerHolicCoin-Qt help message to get a list with possible GamerHolicCoin command-line options.</source>
-        <translation>Zobraziť GamerHolicCoin-Qt nápovedu k získaniu zoznamu pre možnosti GamerHolicCoin príkazového riadku.</translation>
+        <source>Show the GamerholicCoin-Qt help message to get a list with possible GamerholicCoin command-line options.</source>
+        <translation>Zobraziť GamerholicCoin-Qt nápovedu k získaniu zoznamu pre možnosti GamerholicCoin príkazového riadku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1581,13 +1581,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-104"/>
-        <source>GamerHolicCoin - Debug window</source>
-        <translation>GamerHolicCoin - Ladiace okno</translation>
+        <source>GamerholicCoin - Debug window</source>
+        <translation>GamerholicCoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GamerHolicCoin Core</source>
-        <translation>GamerHolicCoin Core</translation>
+        <source>GamerholicCoin Core</source>
+        <translation>GamerholicCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1596,7 +1596,7 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GamerHolicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the GamerholicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otvorte Blackcoin ladenie log súbor z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory protokolu.</translation>
     </message>
     <message>
@@ -1606,7 +1606,7 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GamerHolicCoin RPC console.</source>
+        <source>Welcome to the GamerholicCoin RPC console.</source>
         <translation>Vitajte v Blackcoin RPC konzole.</translation>
     </message>
     <message>
@@ -1765,8 +1765,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte GamerHolicCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte GamerholicCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1865,8 +1865,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid GamerHolicCoin address</source>
-        <translation>VAROVANIE: Neplatná GamerHolicCoin adresa</translation>
+        <source>WARNING: Invalid GamerholicCoin address</source>
+        <translation>VAROVANIE: Neplatná GamerholicCoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1939,8 +1939,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadaj a GamerHolicCoin addresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadaj a GamerholicCoin addresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2000,8 +2000,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GamerHolicCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto GamerHolicCoin adresu</translation>
+        <source>Sign the message to prove you own this GamerholicCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto GamerholicCoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GamerHolicCoin address</source>
-        <translation>Overte správu, aby zabezpečilo, že bola podpísaná s danou GamerHolicCoin adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified GamerholicCoin address</source>
+        <translation>Overte správu, aby zabezpečilo, že bola podpísaná s danou GamerholicCoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2043,8 +2043,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte GamerHolicCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte GamerholicCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2053,8 +2053,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GamerHolicCoin signature</source>
-        <translation>Zadajte GamerHolicCoin podpis</translation>
+        <source>Enter GamerholicCoin signature</source>
+        <translation>Zadajte GamerholicCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2624,8 +2624,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>GamerHolicCoin version</source>
-        <translation>GamerHolicCoin verzia</translation>
+        <source>GamerholicCoin version</source>
+        <translation>GamerholicCoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2809,8 +2809,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerHolicCoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny GamerHolicCoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerholicCoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny GamerholicCoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3005,7 +3005,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
@@ -3016,7 +3016,7 @@ rpcpassword=%s
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3140,13 +3140,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admi
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  GamerHolicCoin is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. GamerHolicCoin už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  GamerholicCoin is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. GamerholicCoin už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admi
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GamerHolicCoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu GamerHolicCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GamerholicCoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu GamerholicCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GamerHolicCoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte GamerHolicCoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart GamerholicCoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte GamerholicCoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admi
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. GamerHolicCoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. GamerHolicCoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. GamerholicCoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. GamerholicCoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>

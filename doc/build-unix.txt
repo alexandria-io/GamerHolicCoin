@@ -16,7 +16,7 @@ To Build
 cd src/
 make -f makefile.unix            # Headless gamerholiccoin
 
-See readme-qt.rst for instructions on building GamerHolicCoin QT,
+See readme-qt.rst for instructions on building GamerholicCoin QT,
 the graphical gamerholiccoin.
 
 Dependencies
@@ -73,7 +73,7 @@ If using Boost 1.37, append -mt to the boost libraries in the makefile.
 Dependency Build Instructions: Gentoo
 -------------------------------------
 
-Note: If you just want to install gamerholiccoind on Gentoo, you can add the GamerHolicCoin
+Note: If you just want to install gamerholiccoind on Gentoo, you can add the GamerholicCoin
       overlay and use your package manager:
           layman -a gamerholiccoin && emerge gamerholiccoind
 

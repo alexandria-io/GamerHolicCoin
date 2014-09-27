@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GamerHolicCoin</source>
-        <translation>GamerHolicCoin Hakkında</translation>
+        <source>About GamerholicCoin</source>
+        <translation>GamerholicCoin Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GamerHolicCoin&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GamerholicCoin&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerHolicCoin developers</source>
+Copyright © 2014 The GamerholicCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your GamerHolicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için GamerHolicCoin adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your GamerholicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için GamerholicCoin adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +78,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GamerHolicCoin address</source>
-        <translation>Bir GamerHolicCoin adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a GamerholicCoin address</source>
+        <translation>Bir GamerholicCoin adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified GamerHolicCoin address</source>
-        <translation>Mesajın, belirli bir GamerHolicCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified GamerholicCoin address</source>
+        <translation>Mesajın, belirli bir GamerholicCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>GamerHolicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>GamerHolicCoin, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>GamerholicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GamerholicCoin, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about GamerHolicCoin</source>
-        <translation>GamerHolicCoin hakkındaki bilgiyi göster</translation>
+        <source>Show information about GamerholicCoin</source>
+        <translation>GamerholicCoin hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +425,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a GamerHolicCoin address</source>
-        <translation>Bir GamerHolicCoin adresine coin gönder</translation>
+        <source>Send coins to a GamerholicCoin address</source>
+        <translation>Bir GamerholicCoin adresine coin gönder</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for GamerHolicCoin</source>
-        <translation>GamerHolicCoin yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for GamerholicCoin</source>
+        <translation>GamerholicCoin yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +470,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-202"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About GamerHolicCoin</source>
-        <translation>GamerHolicCoin &amp;Hakkında</translation>
+        <source>&amp;About GamerholicCoin</source>
+        <translation>GamerholicCoin &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>GamerHolicCoin client</source>
-        <translation>GamerHolicCoin istemcisi</translation>
+        <source>GamerholicCoin client</source>
+        <translation>GamerholicCoin istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to GamerHolicCoin network</source>
-        <translation><numerusform>GamerHolicCoin ağına %n etkin bağlantı</numerusform><numerusform>GamerHolicCoin ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to GamerholicCoin network</source>
+        <translation><numerusform>GamerholicCoin ağına %n etkin bağlantı</numerusform><numerusform>GamerholicCoin ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -582,12 +582,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-312"/>
-        <source>About GamerHolicCoin card</source>
+        <source>About GamerholicCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about GamerHolicCoin card</source>
+        <source>Show information about GamerholicCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -667,8 +667,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir GamerHolicCoin adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GamerholicCoin address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir GamerholicCoin adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -727,8 +727,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. GamerHolicCoin can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. GamerHolicCoin artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. GamerholicCoin can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. GamerholicCoin artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GamerHolicCoin address.</source>
-        <translation>Girilen %1 adresi, geçerli bir GamerHolicCoin adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GamerholicCoin address.</source>
+        <translation>Girilen %1 adresi, geçerli bir GamerholicCoin adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>GamerHolicCoin-Qt</source>
-        <translation>GamerHolicCoin-Qt</translation>
+        <source>GamerholicCoin-Qt</source>
+        <translation>GamerholicCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GamerHolicCoin after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra GamerHolicCoin&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start GamerholicCoin after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra GamerholicCoin&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GamerHolicCoin on system login</source>
-        <translation>Sisteme girişte GamerHolicCoin&apos;i &amp;başlat</translation>
+        <source>&amp;Start GamerholicCoin on system login</source>
+        <translation>Sisteme girişte GamerholicCoin&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1178,8 +1178,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GamerHolicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide GamerHolicCoin istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the GamerholicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide GamerholicCoin istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1188,8 +1188,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GamerHolicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>GamerHolicCoin ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
+        <source>Connect to the GamerholicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>GamerholicCoin ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1263,8 +1263,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, GamerHolicCoin yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, GamerholicCoin yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1278,7 +1278,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GamerHolicCoin addresses in the transaction list or not.</source>
+        <source>Whether to show GamerholicCoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1325,7 +1325,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GamerHolicCoin.</source>
+        <source>This setting will take effect after restarting GamerholicCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1344,7 +1344,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerHolicCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerholicCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1560,7 +1560,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GamerHolicCoin-Qt help message to get a list with possible GamerHolicCoin command-line options.</source>
+        <source>Show the GamerholicCoin-Qt help message to get a list with possible GamerholicCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1580,12 +1580,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>GamerHolicCoin - Debug window</source>
+        <source>GamerholicCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>GamerHolicCoin Core</source>
+        <source>GamerholicCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1595,7 +1595,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GamerHolicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the GamerholicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1605,7 +1605,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GamerHolicCoin RPC console.</source>
+        <source>Welcome to the GamerholicCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1764,7 +1764,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1864,7 +1864,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid GamerHolicCoin address</source>
+        <source>WARNING: Invalid GamerholicCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1938,7 +1938,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1999,7 +1999,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GamerHolicCoin address</source>
+        <source>Sign the message to prove you own this GamerholicCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2031,7 +2031,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GamerHolicCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified GamerholicCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2042,7 +2042,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2052,7 +2052,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GamerHolicCoin signature</source>
+        <source>Enter GamerholicCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2623,7 +2623,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>GamerHolicCoin version</source>
+        <source>GamerholicCoin version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2808,7 +2808,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerHolicCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerholicCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3003,7 +3003,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3129,12 +3129,12 @@ for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; adm
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  GamerHolicCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  GamerholicCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
-        <source>GamerHolicCoin</source>
+        <source>GamerholicCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3169,12 +3169,12 @@ for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; adm
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GamerHolicCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of GamerholicCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GamerHolicCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart GamerholicCoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3244,7 +3244,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; adm
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. GamerHolicCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. GamerholicCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

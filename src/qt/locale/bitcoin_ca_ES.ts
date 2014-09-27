@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GamerHolicCoin</source>
-        <translation>Sobre GamerHolicCoin</translation>
+        <source>About GamerholicCoin</source>
+        <translation>Sobre GamerholicCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GamerHolicCoin&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;GamerHolicCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;GamerholicCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerHolicCoin developers</source>
+Copyright © 2014 The GamerholicCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerHolicCoin developers</translation>
+Copyright © 2014 The GamerholicCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your GamerHolicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de GamerHolicCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your GamerholicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de GamerholicCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GamerHolicCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça GamerHolicCoin</translation>
+        <source>Sign a message to prove you own a GamerholicCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça GamerholicCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified GamerHolicCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça GamerHolicCoin especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified GamerholicCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça GamerholicCoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>GamerHolicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>GamerHolicCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació de la seva cartera no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>GamerholicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GamerholicCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació de la seva cartera no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -372,8 +372,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about GamerHolicCoin</source>
-        <translation>Mostra informació sobre GamerHolicCoin</translation>
+        <source>Show information about GamerholicCoin</source>
+        <translation>Mostra informació sobre GamerholicCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a GamerHolicCoin address</source>
-        <translation>Enviar monedes a una adreça GamerHolicCoin</translation>
+        <source>Send coins to a GamerholicCoin address</source>
+        <translation>Enviar monedes a una adreça GamerholicCoin</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for GamerHolicCoin</source>
-        <translation>Modificar les opcions de configuració per a GamerHolicCoin</translation>
+        <source>Modify configuration options for GamerholicCoin</source>
+        <translation>Modificar les opcions de configuració per a GamerholicCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -467,8 +467,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-202"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -477,8 +477,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About GamerHolicCoin</source>
-        <translation>&amp;Sobre GamerHolicCoin</translation>
+        <source>&amp;About GamerholicCoin</source>
+        <translation>&amp;Sobre GamerholicCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -534,13 +534,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>GamerHolicCoin client</source>
-        <translation>Client GamerHolicCoin</translation>
+        <source>GamerholicCoin client</source>
+        <translation>Client GamerholicCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to GamerHolicCoin network</source>
-        <translation><numerusform>%n conexió activa a la xarxa GamerHolicCoin</numerusform><numerusform>%n conexions actives a la xarxa GamerHolicCoin</numerusform></translation>
+        <source>%n active connection(s) to GamerholicCoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa GamerholicCoin</numerusform><numerusform>%n conexions actives a la xarxa GamerholicCoin</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -579,13 +579,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-312"/>
-        <source>About GamerHolicCoin card</source>
-        <translation>Sobre la tarjeta GamerHolicCoin</translation>
+        <source>About GamerholicCoin card</source>
+        <translation>Sobre la tarjeta GamerholicCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about GamerHolicCoin card</source>
-        <translation>Mostra informació sobre la tarjeta GamerHolicCoin</translation>
+        <source>Show information about GamerholicCoin card</source>
+        <translation>Mostra informació sobre la tarjeta GamerholicCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -660,8 +660,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GamerHolicCoin address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça GamerHolicCoin no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GamerholicCoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça GamerholicCoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -720,8 +720,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. GamerHolicCoin can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. GamerHolicCoin ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. GamerholicCoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. GamerholicCoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1054,8 +1054,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GamerHolicCoin address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça GamerHolicCoin vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GamerholicCoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça GamerholicCoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1073,8 +1073,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>GamerHolicCoin-Qt</source>
-        <translation>GamerHolicCoin-Qt</translation>
+        <source>GamerholicCoin-Qt</source>
+        <translation>GamerholicCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1146,13 +1146,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GamerHolicCoin after logging in to the system.</source>
-        <translation>Inicia automàticament GamerHolicCoin després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start GamerholicCoin after logging in to the system.</source>
+        <translation>Inicia automàticament GamerholicCoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GamerHolicCoin on system login</source>
-        <translation>&amp;Iniciar GamerHolicCoin amb l&apos;inici de sessió</translation>
+        <source>&amp;Start GamerholicCoin on system login</source>
+        <translation>&amp;Iniciar GamerholicCoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1171,8 +1171,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GamerHolicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client GamerHolicCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the GamerholicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client GamerholicCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1181,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GamerHolicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa GamerHolicCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the GamerholicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa GamerholicCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1256,8 +1256,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar GamerHolicCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar GamerholicCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1271,8 +1271,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GamerHolicCoin addresses in the transaction list or not.</source>
-        <translation>Per mostrar GamerHolicCoin adreces a la llista de transaccions o no.</translation>
+        <source>Whether to show GamerholicCoin addresses in the transaction list or not.</source>
+        <translation>Per mostrar GamerholicCoin adreces a la llista de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1318,8 +1318,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GamerHolicCoin.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar GamerHolicCoin.</translation>
+        <source>This setting will take effect after restarting GamerholicCoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar GamerholicCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1337,8 +1337,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerHolicCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. La seva cartera es sincronitza automàticament amb la xarxa GamerHolicCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerholicCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. La seva cartera es sincronitza automàticament amb la xarxa GamerholicCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1553,8 +1553,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GamerHolicCoin-Qt help message to get a list with possible GamerHolicCoin command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de GamerHolicCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres GamerHolicCoin.</translation>
+        <source>Show the GamerholicCoin-Qt help message to get a list with possible GamerholicCoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de GamerholicCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres GamerholicCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,13 +1573,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>GamerHolicCoin - Debug window</source>
-        <translation>GamerHolicCoin - Finestra Depuració</translation>
+        <source>GamerholicCoin - Debug window</source>
+        <translation>GamerholicCoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GamerHolicCoin Core</source>
-        <translation>Nucli GamerHolicCoin</translation>
+        <source>GamerholicCoin Core</source>
+        <translation>Nucli GamerholicCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1588,8 +1588,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GamerHolicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració GamerHolicCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the GamerholicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració GamerholicCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1598,8 +1598,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GamerHolicCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de GamerHolicCoin.</translation>
+        <source>Welcome to the GamerholicCoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de GamerholicCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1757,8 +1757,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça GamerHolicCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça GamerholicCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1857,8 +1857,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid GamerHolicCoin address</source>
-        <translation>ADVERTÈNCIA: Direcció GamerHolicCoin invàlida</translation>
+        <source>WARNING: Invalid GamerholicCoin address</source>
+        <translation>ADVERTÈNCIA: Direcció GamerholicCoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1931,8 +1931,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça GamerHolicCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça GamerholicCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1992,8 +1992,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GamerHolicCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça GamerHolicCoin</translation>
+        <source>Sign the message to prove you own this GamerholicCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça GamerholicCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2024,8 +2024,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GamerHolicCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça GamerHolicCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified GamerholicCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça GamerholicCoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2035,8 +2035,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GamerHolicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça GamerHolicCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça GamerholicCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2045,8 +2045,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GamerHolicCoin signature</source>
-        <translation>Introduïu la signatura GamerHolicCoin</translation>
+        <source>Enter GamerholicCoin signature</source>
+        <translation>Introduïu la signatura GamerholicCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2616,8 +2616,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>GamerHolicCoin version</source>
-        <translation>versió GamerHolicCoin</translation>
+        <source>GamerholicCoin version</source>
+        <translation>versió GamerholicCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2801,8 +2801,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerHolicCoin will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni GamerHolicCoin no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerholicCoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni GamerholicCoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2997,7 +2997,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, ha d&apos;establir un rpcpassword al fitxer de configuració:
 %s
@@ -3008,7 +3008,7 @@ rpcpassword=%s
 El nom d&apos;usuari i contrasenya NO HA DE SER el mateix.
 Si no hi ha l&apos;arxiu, s&apos;ha de crear amb els permisos de només lectura per al propietari.
 També es recomana establir alertnotify per a que se li notifiquin els problemes;
-per exemple: alertnotify=echo %%s | mail -s &quot;GamerHolicCoin Alert&quot; admin@foo.com
+per exemple: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3134,13 +3134,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  GamerHolicCoin is probably already running.</source>
-        <translation>No es pot obtenir un bloqueig en el directori de dades %s. GamerHolicCoin probablement ja estigui en funcionament.</translation>
+        <source>Cannot obtain a lock on data directory %s.  GamerholicCoin is probably already running.</source>
+        <translation>No es pot obtenir un bloqueig en el directori de dades %s. GamerholicCoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>GamerHolicCoin</source>
-        <translation>GamerHolicCoin</translation>
+        <source>GamerholicCoin</source>
+        <translation>GamerholicCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3174,13 +3174,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GamerHolicCoin</source>
-        <translation>Error en carregar wallet.dat: La cartera requereix la versió més recent de GamerHolicCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GamerholicCoin</source>
+        <translation>Error en carregar wallet.dat: La cartera requereix la versió més recent de GamerholicCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GamerHolicCoin to complete</source>
-        <translation>La cartera necessita ser reescrita: reiniciar GamerHolicCoin per completar</translation>
+        <source>Wallet needed to be rewritten: restart GamerholicCoin to complete</source>
+        <translation>La cartera necessita ser reescrita: reiniciar GamerholicCoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3249,8 +3249,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. GamerHolicCoin is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. GamerHolicCoin probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. GamerholicCoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. GamerholicCoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-97"/>
